@@ -21,4 +21,9 @@ public class GlobalVariable {
      */
 	public static Object TimeOut = 15
 	 
+    /**
+     * <p>This is the URL for logging into Contact Center.</p>
+     */
+	public static Object ApplicationURL = 'https://patch-testing-web1.callproxe.com'
+	 
 }

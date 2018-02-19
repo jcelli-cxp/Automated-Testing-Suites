@@ -7,4 +7,9 @@
       <initValue>15</initValue>
       <name>TimeOut</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>This is the URL for logging into Contact Center.</description>
+      <initValue>'https://patch-testing-web1.callproxe.com'</initValue>
+      <name>ApplicationURL</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

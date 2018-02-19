@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportEntity>
+   <description></description>
+   <name>20180219_082303</name>
+   <tag></tag>
+   <displayName>20180219_082303</displayName>
+   <reportTestCases>
+      <testCaseId>Test Cases/Reggression/Agent Enrollment</testCaseId>
+      <testCaseName>Agent Enrollment</testCaseName>
+      <videoLocation>videos/test_1.mov</videoLocation>
+   </reportTestCases>
+</ReportEntity>

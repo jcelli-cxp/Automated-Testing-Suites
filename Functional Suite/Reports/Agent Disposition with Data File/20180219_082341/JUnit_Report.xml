@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Agent Disposition with Data File" time="34" tests="1" failures="0" errors="0">
+   <testsuite name="Agent Disposition with Data File" tests="1" failures="0" errors="0" time="34" timestamp="2018-02-19 08:23:42" hostname="jcelli - 10.1.69.49" id="Test Suites/Agent Disposition with Data File">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/jcelli/Documents/cXp/Automated-Testing-Suites/Functional Suite/Reports/Agent Disposition with Data File/20180219_082341"/>
+         <property name="logFiles" value="/Users/jcelli/Documents/cXp/Automated-Testing-Suites/Functional Suite/Reports/Agent Disposition with Data File/20180219_082341/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="jcelli - 10.1.69.49"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 64.0.3282.167"/>
+         <property name="hostAddress" value="10.1.69.49"/>
+         <property name="sessionId" value="b4fdba1cff84416262dd71a0fb0edfaf"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Reggression/Agent Enrollment" classname="Test Cases/Reggression/Agent Enrollment" status="PASSED">
+         <system-out><![CDATA[2018-02-19 08:23:42 - [TEST_CASE][PASSED] - Test Cases/Reggression/Agent Enrollment: Test Cases/Reggression/Agent Enrollment
+
+2018-02-19 08:23:42 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://patch-testing-web1.callproxe.com/cti/agents'
+
+2018-02-19 08:23:44 - [MESSAGE][PASSED] - Browser is opened with url: 'https://patch-testing-web1.callproxe.com/cti/agents'
+
+2018-02-19 08:23:44 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-02-19 08:23:45 - [MESSAGE][PASSED] - Current window maximized
+
+2018-02-19 08:23:45 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_CTI Agent Screens/input_username' is visible
+
+2018-02-19 08:23:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CTI Agent Screens/input_username' is visible
+
+2018-02-19 08:23:45 - [TEST_STEP][PASSED] - setText: Text 'a002' is set on object 'Object Repository/Page_CTI Agent Screens/input_username'
+
+2018-02-19 08:23:45 - [MESSAGE][PASSED] - Text 'a002' is set on object 'Object Repository/Page_CTI Agent Screens/input_username'
+
+2018-02-19 08:23:45 - [TEST_STEP][PASSED] - setText: Text 'pass002' is set on object 'Object Repository/Page_CTI Agent Screens/input_password'
+
+2018-02-19 08:23:45 - [MESSAGE][PASSED] - Text 'pass002' is set on object 'Object Repository/Page_CTI Agent Screens/input_password'
+
+2018-02-19 08:23:45 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/Page_CTI Agent Screens/input_password'
+
+2018-02-19 08:23:45 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_CTI Agent Screens/input_password'
+
+2018-02-19 08:23:45 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_CTI Agent Screens/inputLogin' is visible
+
+2018-02-19 08:23:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CTI Agent Screens/inputLogin' is visible
+
+2018-02-19 08:23:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CTI Agent Screens/inputLogin' is clicked on
+
+2018-02-19 08:23:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CTI Agent Screens/inputLogin' is clicked on
+
+2018-02-19 08:23:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CTI Agent Screens/li_Initiate Connection' is clicked on
+
+2018-02-19 08:23:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CTI Agent Screens/li_Initiate Connection' is clicked on
+
+2018-02-19 08:23:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CTI Agent Screens/button_Nailup' is clicked on
+
+2018-02-19 08:23:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CTI Agent Screens/button_Nailup' is clicked on
+
+2018-02-19 08:23:52 - [TEST_STEP][PASSED] - waitForElementNotVisible: Object 'Object Repository/Page_CTI Agent Screens/li_Initiate Connection' is NOT visible
+
+2018-02-19 08:23:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CTI Agent Screens/li_Initiate Connection' is NOT visible
+
+2018-02-19 08:23:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CTI Agent Screens/li_Initiate Agent' is clicked on
+
+2018-02-19 08:23:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CTI Agent Screens/li_Initiate Agent' is clicked on
+
+2018-02-19 08:23:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CTI Agent Screens/a_here' is clicked on
+
+2018-02-19 08:23:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CTI Agent Screens/a_here' is clicked on
+
+2018-02-19 08:23:58 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'QUESTIONS ABOUT PLAN / GENERAL QUESTIONS' are selected in object 'Object Repository/Page_CTI Agent Screens/select_QUESTIONS ABOUT PLAN  G'  using regular expression
+
+2018-02-19 08:24:01 - [MESSAGE][PASSED] - All options with value 'QUESTIONS ABOUT PLAN / GENERAL QUESTIONS' are selected in object 'Object Repository/Page_CTI Agent Screens/select_QUESTIONS ABOUT PLAN  G'  using regular expression
+
+2018-02-19 08:24:01 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_CTI Agent Screens/inputContinue' is clickable
+
+2018-02-19 08:24:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CTI Agent Screens/inputContinue' is clickable
+
+2018-02-19 08:24:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CTI Agent Screens/inputContinue' is clicked on
+
+2018-02-19 08:24:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CTI Agent Screens/inputContinue' is clicked on
+
+2018-02-19 08:24:01 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_CTI Agent Screens/input_cl_cust-8231' is visible
+
+2018-02-19 08:24:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CTI Agent Screens/input_cl_cust-8231' is visible
+
+2018-02-19 08:24:01 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Page_CTI Agent Screens/input_cl_cust-8231'
+
+2018-02-19 08:24:01 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Page_CTI Agent Screens/input_cl_cust-8231'
+
+2018-02-19 08:24:01 - [TEST_STEP][PASSED] - setText: Text 'E' is set on object 'Object Repository/Page_CTI Agent Screens/input_cl_cust-1081'
+
+2018-02-19 08:24:01 - [MESSAGE][PASSED] - Text 'E' is set on object 'Object Repository/Page_CTI Agent Screens/input_cl_cust-1081'
+
+2018-02-19 08:24:01 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Page_CTI Agent Screens/input_cl_cust-8230'
+
+2018-02-19 08:24:01 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Page_CTI Agent Screens/input_cl_cust-8230'
+
+2018-02-19 08:24:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CTI Agent Screens/div_script_content_1766447' is clicked on
+
+2018-02-19 08:24:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CTI Agent Screens/div_script_content_1766447' is clicked on
+
+2018-02-19 08:24:01 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_CTI Agent Screens/select_SelfSomeone Else' is visible
+
+2018-02-19 08:24:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CTI Agent Screens/select_SelfSomeone Else' is visible
+
+2018-02-19 08:24:01 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Self' are selected in object 'Object Repository/Page_CTI Agent Screens/select_SelfSomeone Else'  using regular expression
+
+2018-02-19 08:24:01 - [MESSAGE][PASSED] - All options with value 'Self' are selected in object 'Object Repository/Page_CTI Agent Screens/select_SelfSomeone Else'  using regular expression
+
+2018-02-19 08:24:01 - [TEST_STEP][PASSED] - setText: Text '1234567890' is set on object 'Object Repository/Page_CTI Agent Screens/input_cl_cust-7741'
+
+2018-02-19 08:24:01 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/Page_CTI Agent Screens/input_cl_cust-7741'
+
+2018-02-19 08:24:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CTI Agent Screens/div_Check box below if caller' is clicked on
+
+2018-02-19 08:24:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CTI Agent Screens/div_Check box below if caller' is clicked on
+
+2018-02-19 08:24:02 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_CTI Agent Screens/select_YESNO' is visible
+
+2018-02-19 08:24:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CTI Agent Screens/select_YESNO' is visible
+
+2018-02-19 08:24:02 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'NO' are selected in object 'Object Repository/Page_CTI Agent Screens/select_YESNO'  using regular expression
+
+2018-02-19 08:24:02 - [MESSAGE][PASSED] - All options with value 'NO' are selected in object 'Object Repository/Page_CTI Agent Screens/select_YESNO'  using regular expression
+
+2018-02-19 08:24:02 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'NO' are selected in object 'Object Repository/Page_CTI Agent Screens/select_YESNO_1'  using regular expression
+
+2018-02-19 08:24:02 - [MESSAGE][PASSED] - All options with value 'NO' are selected in object 'Object Repository/Page_CTI Agent Screens/select_YESNO_1'  using regular expression
+
+2018-02-19 08:24:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CTI Agent Screens/div_May I have your email addr' is clicked on
+
+2018-02-19 08:24:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CTI Agent Screens/div_May I have your email addr' is clicked on
+
+2018-02-19 08:24:02 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'NO' are selected in object 'Object Repository/Page_CTI Agent Screens/select_YESNO_2'  using regular expression
+
+2018-02-19 08:24:02 - [MESSAGE][PASSED] - All options with value 'NO' are selected in object 'Object Repository/Page_CTI Agent Screens/select_YESNO_2'  using regular expression
+
+2018-02-19 08:24:02 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_CTI Agent Screens/input_cl_cust-3631' is visible
+
+2018-02-19 08:24:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CTI Agent Screens/input_cl_cust-3631' is visible
+
+2018-02-19 08:24:02 - [TEST_STEP][PASSED] - setText: Text '90210' is set on object 'Object Repository/Page_CTI Agent Screens/input_cl_cust-3631'
+
+2018-02-19 08:24:02 - [MESSAGE][PASSED] - Text '90210' is set on object 'Object Repository/Page_CTI Agent Screens/input_cl_cust-3631'
+
+2018-02-19 08:24:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CTI Agent Screens/div_script_content_1766447' is clicked on
+
+2018-02-19 08:24:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CTI Agent Screens/div_script_content_1766447' is clicked on
+
+2018-02-19 08:24:02 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_CTI Agent Screens/inputCountyLookup' is visible
+
+2018-02-19 08:24:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CTI Agent Screens/inputCountyLookup' is visible
+
+2018-02-19 08:24:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CTI Agent Screens/inputCountyLookup' is clicked on
+
+2018-02-19 08:24:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CTI Agent Screens/inputCountyLookup' is clicked on
+
+2018-02-19 08:24:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CTI Agent Screens/td_PDP and MA' is clicked on
+
+2018-02-19 08:24:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CTI Agent Screens/td_PDP and MA' is clicked on
+
+2018-02-19 08:24:03 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_CTI Agent Screens/inputINTRO' is visible
+
+2018-02-19 08:24:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CTI Agent Screens/inputINTRO' is visible
+
+2018-02-19 08:24:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CTI Agent Screens/inputINTRO' is clicked on
+
+2018-02-19 08:24:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CTI Agent Screens/inputINTRO' is clicked on
+
+2018-02-19 08:24:04 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_CTI Agent Screens/select_YESNO_3' is visible
+
+2018-02-19 08:24:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CTI Agent Screens/select_YESNO_3' is visible
+
+2018-02-19 08:24:05 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'NO' are selected in object 'Object Repository/Page_CTI Agent Screens/select_YESNO_3'  using regular expression
+
+2018-02-19 08:24:05 - [MESSAGE][PASSED] - All options with value 'NO' are selected in object 'Object Repository/Page_CTI Agent Screens/select_YESNO_3'  using regular expression
+
+2018-02-19 08:24:05 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'NO' are selected in object 'Object Repository/Page_CTI Agent Screens/select_YESNO_4'  using regular expression
+
+2018-02-19 08:24:05 - [MESSAGE][PASSED] - All options with value 'NO' are selected in object 'Object Repository/Page_CTI Agent Screens/select_YESNO_4'  using regular expression
+
+2018-02-19 08:24:05 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'NO' are selected in object 'Object Repository/Page_CTI Agent Screens/select_YESNO_5'  using regular expression
+
+2018-02-19 08:24:06 - [MESSAGE][PASSED] - All options with value 'NO' are selected in object 'Object Repository/Page_CTI Agent Screens/select_YESNO_5'  using regular expression
+
+2018-02-19 08:24:06 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_CTI Agent Screens/inputKits' is visible
+
+2018-02-19 08:24:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CTI Agent Screens/inputKits' is visible
+
+2018-02-19 08:24:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CTI Agent Screens/inputKits' is clicked on
+
+2018-02-19 08:24:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CTI Agent Screens/inputKits' is clicked on
+
+2018-02-19 08:24:06 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_CTI Agent Screens/inputPDP' is visible
+
+2018-02-19 08:24:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CTI Agent Screens/inputPDP' is visible
+
+2018-02-19 08:24:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CTI Agent Screens/inputPDP' is clicked on
+
+2018-02-19 08:24:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CTI Agent Screens/inputPDP' is clicked on
+
+2018-02-19 08:24:07 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_CTI Agent Screens/select_YESNO_6' is visible
+
+2018-02-19 08:24:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CTI Agent Screens/select_YESNO_6' is visible
+
+2018-02-19 08:24:07 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'NO' are selected in object 'Object Repository/Page_CTI Agent Screens/select_YESNO_6'  using regular expression
+
+2018-02-19 08:24:07 - [MESSAGE][PASSED] - All options with value 'NO' are selected in object 'Object Repository/Page_CTI Agent Screens/select_YESNO_6'  using regular expression
+
+2018-02-19 08:24:07 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_CTI Agent Screens/td_The lead data has been save' is visible
+
+2018-02-19 08:24:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CTI Agent Screens/td_The lead data has been save' is visible
+
+2018-02-19 08:24:08 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_CTI Agent Screens/inputWrapUp' is visible
+
+2018-02-19 08:24:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CTI Agent Screens/inputWrapUp' is visible
+
+2018-02-19 08:24:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CTI Agent Screens/inputWrapUp' is clicked on
+
+2018-02-19 08:24:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CTI Agent Screens/inputWrapUp' is clicked on
+
+2018-02-19 08:24:08 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_CTI Agent Screens/inputNotMedicareEligible' is visible
+
+2018-02-19 08:24:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CTI Agent Screens/inputNotMedicareEligible' is visible
+
+2018-02-19 08:24:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CTI Agent Screens/inputNotMedicareEligible' is clicked on
+
+2018-02-19 08:24:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CTI Agent Screens/inputNotMedicareEligible' is clicked on
+
+2018-02-19 08:24:10 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_CTI Agent Screens/td_The lead data has been save' is visible
+
+2018-02-19 08:24:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CTI Agent Screens/td_The lead data has been save' is visible
+
+2018-02-19 08:24:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CTI Agent Screens/inputNotMedicareEligible2' is clicked on
+
+2018-02-19 08:24:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CTI Agent Screens/inputNotMedicareEligible2' is clicked on
+
+2018-02-19 08:24:12 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_CTI Agent Screens/li_Home  Pause' is visible
+
+2018-02-19 08:24:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CTI Agent Screens/li_Home  Pause' is visible
+
+2018-02-19 08:24:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CTI Agent Screens/li_Home  Pause' is clicked on
+
+2018-02-19 08:24:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CTI Agent Screens/li_Home  Pause' is clicked on
+
+2018-02-19 08:24:12 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_CTI Agent Screens/li_End of Shift' is visible
+
+2018-02-19 08:24:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CTI Agent Screens/li_End of Shift' is visible
+
+2018-02-19 08:24:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CTI Agent Screens/li_End of Shift' is clicked on
+
+2018-02-19 08:24:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CTI Agent Screens/li_End of Shift' is clicked on
+
+2018-02-19 08:24:16 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-19 08:24:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-19 08:23:42 - [TEST_SUITE][PASSED] - Agent Disposition with Data File: Test Cases/Reggression/Agent Enrollment]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
