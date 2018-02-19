@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Agent login, nail up, takes call and fills out scripts, logs out and closes browser. 
+STEPS.
+1. Once agent is waiting for a call make sure that calls are coming into the queue, then the script should complete.</description>
+   <name>Agent Enrollment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c7d15f1f-ce0a-449e-aa45-25cb06151d06</testCaseGuid>
+</TestCaseEntity>

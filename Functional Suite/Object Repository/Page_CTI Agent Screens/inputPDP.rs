@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputPDP</name>
+   <tag></tag>
+   <elementGuidId>55203b83-872b-4326-a63c-0dec9cdb222d</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>syncLeadInfo.call(new Element('input',{name:'cl_cust-8275',type:'hidden',value:'PDP'}),true);syncLeadInfo.call(new Element('input',{name:'cl_cust-961',type:'hidden',value:'Aetna Medicare'}),true);syncLeadInfo.call(new Element('input',{name:'cl_cust-8865',type:'hidden',value:'Aetna'}),true);syncLeadInfo.call(new Element('input',{name:'cl_cust-11165',type:'hidden',value:'Aetna'}),true);syncLeadInfo.call(new Element('input',{name:'cl_cust-12945',type:'hidden',value:'PDP'}),true);syncLeadInfo.call(new Element('input',{name:'cl_cust-11329',type:'hidden',value:'1'}),true);toggleDispositionFields();toggleScriptBranching();saveLeadInfo('','')</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>PDP</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;script_content_1747042&quot;)/input[7]</value>
+   </webElementProperties>
+</WebElementEntity>
