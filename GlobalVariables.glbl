@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <tag></tag>
+   <GlobalVariableEntity>
+      <description>Global Time Out for loading</description>
+      <initValue>60</initValue>
+      <name>TimeOut</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Global Variable for Username Data</description>
+      <initValue>findTestData('AgentDataFolder/Agent Test Data').getValue(1, 1)</initValue>
+      <name>Username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Global Variable for Password Data</description>
+      <initValue>findTestData('AgentDataFolder/Agent Test Data').getValue(2, 1)</initValue>
+      <name>Password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>URL for Contact Center</description>
+      <initValue>'https://patch-testing-web1.callproxe.com/cti/agents'</initValue>
+      <name>ContacCenterURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Custom Objects/Custom Fields')</initValue>
+      <name>ScriptField</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Time Out for five secs</description>
+      <initValue>5</initValue>
+      <name>TimeOut5</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
