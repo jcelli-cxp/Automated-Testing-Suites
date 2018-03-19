@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;script_content_1781258&quot;)/input[2]</value>
+         <value>id(&quot;script_content_1781191&quot;)/input[2][count(. | //input[@type = 'button']) = count(//input[@type = 'button'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,7 +20,7 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -38,13 +38,13 @@
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Not Medicare eligible</value>
+      <value>NOT MEDICARE ELIGIBLE</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;script_content_1781258&quot;)/input[2]</value>
+      <value>id(&quot;script_content_1781191&quot;)/input[2]</value>
    </webElementProperties>
 </WebElementEntity>

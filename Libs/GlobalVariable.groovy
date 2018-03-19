@@ -37,11 +37,6 @@ public class GlobalVariable {
 	public static Object ContacCenterURL = 'https://patch-testing-web1.callproxe.com/cti/agents'
 	 
     /**
-     * <p></p>
-     */
-	public static Object ScriptField = findTestData('Custom Objects/Custom Fields')
-	 
-    /**
      * <p>Time Out for five secs</p>
      */
 	public static Object TimeOut5 = 5

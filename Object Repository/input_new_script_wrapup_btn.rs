@@ -6,8 +6,12 @@
    <elementGuidId>d03a4a8a-3fc1-4998-b69d-10dda9f0b718</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>id(&quot;script_content_1780927&quot;)/input[2][count(. | //input[@value = 'Wrap Up']) = count(//input[@value = 'Wrap Up'])]</value>
+         <value>//input[@type = 'button' and @value = 'Wrap Up']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,7 +24,7 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -41,7 +45,7 @@
       <value>Wrap Up</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

@@ -23,11 +23,6 @@
       <name>ContacCenterURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>findTestData('Custom Objects/Custom Fields')</initValue>
-      <name>ScriptField</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
       <description>Time Out for five secs</description>
       <initValue>5</initValue>
       <name>TimeOut5</name>

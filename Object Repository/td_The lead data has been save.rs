@@ -4,6 +4,12 @@
    <name>td_The lead data has been save</name>
    <tag></tag>
    <elementGuidId>bb995238-1ec5-4a17-99c6-77130d82753d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;status&quot;][count(. | //td[(contains(text(), 'Saving...') or contains(., 'Saving...'))]) = count(//td[(contains(text(), 'Saving...') or contains(., 'Saving...'))])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -22,16 +28,16 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>The lead data has been saved</value>
+      <value>Saving...</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;status&quot;)</value>
+      <value>//*[@id=&quot;status&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

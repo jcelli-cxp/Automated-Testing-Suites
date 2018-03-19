@@ -4,6 +4,12 @@
    <name>input_cl_cust-3631</name>
    <tag></tag>
    <elementGuidId>5d316c76-ce58-4480-aa88-d65114d36ccd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;script_content_1781897&quot;)/input[2][count(. | //input[@type = 'text' and @name = 'cl_cust-3631']) = count(//input[@type = 'text' and @name = 'cl_cust-3631'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -35,7 +41,7 @@
       <value>validateCustomField(this)</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
