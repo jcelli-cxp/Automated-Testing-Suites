@@ -24,7 +24,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.logging.KeywordLogger
 
-CustomKeywords.'com.ContactCenter.Utilities.CustomBrowser.ccAgentBrowser'(Username)
+CustomKeywords.'com.cc51722rc1.utilities.CustomBrowser.ccAgentBrowser'(Username)
 
 CustomKeywords.'com.AstriskValidation.AstriskValidation.AGENTNAILUP'(Username, Password)
 

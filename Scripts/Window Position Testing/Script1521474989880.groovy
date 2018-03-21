@@ -19,5 +19,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'com.ContactCenter.Utilities.CustomBrowser.ccAgentBrowser'('test')
+CustomKeywords.'com.cc51722rc1.utilities.CustomBrowser.ccAgentBrowser'()
+
+CustomKeywords.'com.cc51722rc1.utilities.LoginHelper.loginIntoApplication'('https://patch-testing-web1.callproxe.com/cti/agents', 
+    'a101', 'pass101')
+
+CustomKeywords.'com.cc51722rc1.utilities.LoginHelper.agentNailUp'()
 

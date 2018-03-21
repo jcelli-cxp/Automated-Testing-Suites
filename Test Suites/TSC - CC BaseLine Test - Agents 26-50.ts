@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteCollectionEntity>
    <description>This is the Full scale test for finding out what CC can do.</description>
-   <name>TSC - CC BaseLine Test - Agents1-25</name>
+   <name>TSC - CC BaseLine Test - Agents 26-50</name>
    <tag></tag>
    <executionMode>PARALLEL</executionMode>
    <testSuiteRunConfigurations>
