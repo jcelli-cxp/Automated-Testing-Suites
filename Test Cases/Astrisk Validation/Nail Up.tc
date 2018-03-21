@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Nail Up</name>
+   <tag>NailUp</tag>
+   <comment></comment>
+   <testCaseGuid>fa601a3c-de3b-445c-9503-735a7cf5bab4</testCaseGuid>
+   <variable>
+      <defaultValue>'Inbound'</defaultValue>
+      <description></description>
+      <id>92b32dbe-2c2a-4e7f-b9b2-4c326fd912c4</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+   <variable>
+      <defaultValue>'Outbound'</defaultValue>
+      <description></description>
+      <id>e458f074-b474-4bf3-a2af-376043d1d86f</id>
+      <masked>false</masked>
+      <name>variable1</name>
+   </variable>
+</TestCaseEntity>

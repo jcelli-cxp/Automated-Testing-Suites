@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_script_county_lookup</name>
+   <tag></tag>
+   <elementGuidId>06cc646a-57ed-4f5c-9d69-94bc643f184e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;script_content_1781879&quot;]/input[count(. | //input[@value = 'County Lookup']) = count(//input[@value = 'County Lookup'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>County Lookup</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>saveLeadInfo(null, null, null, null, this, '83');</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;script_content_1781879&quot;]/input</value>
+   </webElementProperties>
+</WebElementEntity>

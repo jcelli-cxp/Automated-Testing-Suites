@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_script_intro_btn</name>
+   <tag></tag>
+   <elementGuidId>c75e3f72-ed18-4237-8e63-16da6e1ea417</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;script_content_1781909&quot;]/input[3][count(. | //input[@value = 'Introduction']) = count(//input[@value = 'Introduction'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>syncLeadInfo.call(new Element('input',{name:'cl_cust-11264',type:'hidden',value:'1'}),true);syncLeadInfo.call(new Element('input',{name:'cl_cust-10652',type:'hidden',value:'1'}),true);toggleDispositionFields();toggleScriptBranching();saveLeadInfo('','8809')</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Introduction</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;script_content_1781909&quot;]/input[3]</value>
+   </webElementProperties>
+</WebElementEntity>

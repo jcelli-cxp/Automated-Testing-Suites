@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_ekit_plan_selection</name>
+   <tag></tag>
+   <elementGuidId>b7772da4-693f-49b5-99ee-1a265e0709dc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;script_content_1747059&quot;)/input[1][count(. | //*[@value = 'MA eKit Plan Selection']) = count(//*[@value = 'MA eKit Plan Selection'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>MA eKit Plan Selection</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>saveLeadInfo(null, null, null, null, this, '150');</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;script_content_1747059&quot;)/input[1]</value>
+   </webElementProperties>
+</WebElementEntity>

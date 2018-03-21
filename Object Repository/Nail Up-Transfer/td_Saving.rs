@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Saving</name>
+   <tag></tag>
+   <elementGuidId>520342a6-116e-46c4-a0f2-de424301ed88</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;status&quot;)[count(. | //td[(contains(text(), 'Saving') or contains(., 'Saving'))]) = count(//td[(contains(text(), 'Saving') or contains(., 'Saving'))])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>status</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Saving</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;status&quot;)</value>
+   </webElementProperties>
+</WebElementEntity>

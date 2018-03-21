@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_continue</name>
+   <tag></tag>
+   <elementGuidId>5e69003c-441f-4105-8901-5214bb94095e</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>syncLeadInfo.call(new Element('input',{name:'cl_cust-8865',type:'hidden',value:'Aetna'}),true);syncLeadInfo.call(new Element('input',{name:'cl_cust-11165',type:'hidden',value:'Aetna'}),true);syncLeadInfo.call(new Element('input',{name:'cl_cust-961',type:'hidden',value:'Aetna Medicare'}),true);syncLeadInfo.call(new Element('input',{name:'cl_cust-11263',type:'hidden',value:'1'}),true);toggleDispositionFields();toggleScriptBranching();saveLeadInfo('','')</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Continue</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;script_content_1779031&quot;)/input[5]</value>
+   </webElementProperties>
+</WebElementEntity>

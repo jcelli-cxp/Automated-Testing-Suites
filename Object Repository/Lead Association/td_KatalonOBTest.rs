@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_KatalonOBTest</name>
+   <tag></tag>
+   <elementGuidId>f71711cf-e536-42d9-a9e2-bae9a9e940df</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>KatalonOBTest</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;popup_search_results&quot;)/div[@class=&quot;box&quot;]/div[@class=&quot;content&quot;]/div[1]/section[2]/table[1]/tbody[@id=&quot;search_rows&quot;]/tr[@id=&quot;12512856&quot;]/td[8]</value>
+   </webElementProperties>
+</WebElementEntity>

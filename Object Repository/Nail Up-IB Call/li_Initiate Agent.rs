@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Initiate Agent</name>
+   <tag></tag>
+   <elementGuidId>3f6072a2-3e99-482b-ac59-e2a36e86a490</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;menu&quot;)/div[@class=&quot;box&quot;]/ul[@class=&quot;styled&quot;]/li[@class=&quot;normal&quot;][count(. | //li[(text() = 'Initiate Agent' or . = 'Initiate Agent')]) = count(//li[(text() = 'Initiate Agent' or . = 'Initiate Agent')])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>normal</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>goTo('/cti/agents/call.html');</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Initiate Agent</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;menu&quot;)/div[@class=&quot;box&quot;]/ul[@class=&quot;styled&quot;]/li[@class=&quot;normal&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>
